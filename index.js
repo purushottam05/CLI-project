@@ -26,7 +26,16 @@ var questions = [{
 {
   question: "Where do I work? ",
   answer: "Megdap"
-}];
+},
+{
+  question: "What is favorite cuisine? ",
+  answer: "Mexican"
+},
+{
+  question: "Which is my favorite TV show? ",
+  answer: "Breaking Bad"
+},
+];
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
